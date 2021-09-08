@@ -1,0 +1,4 @@
+/* image is 600 and reduced to 300 for Retina and high-pixel displays */
+img {
+    width: 300px;
+}
