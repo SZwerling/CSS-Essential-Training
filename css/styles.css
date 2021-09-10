@@ -1,4 +1,89 @@
+/* #495867
+#8B9556
+#BDD5EA
+#ABB557
+#BED558 
+#EDFF86
+*/
+
+
 /* image is 600 and reduced to 300 for Retina and high-pixel displays */
 img {
     width: 300px;
+}
+
+
+/* Global Styles 
+--------------------------------------------------------------*/
+body {
+    color: #495867;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #EDFF86;
+}
+a:hover {
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+.content-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+/* Profile 
+--------------------------------------------------------------*/
+header {
+    background: #8B9556;
+    color: whitesmoke;
+}
+
+/* Projects 
+--------------------------------------------------------------*/
+.projects {
+    background: #BDD5EA;
+}
+
+     /* affects only anchor tags in class projects */  
+.projects a {
+    color: saddlebrown;
+}
+.projects .btn {
+    color: goldenrod; 
+    background: black;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 3px;
+    border-style: outset;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(0, 0, 0, .3);
+}
+
+/* Work Experience 
+--------------------------------------------------------------*/
+.work-experience {
+    background: #8B9556;
+    color: whitesmoke;
+}
+
+/* Education
+--------------------------------------------------------------- */
+.education {
+    background: #BDD5EA;
+}
+     
+
+
+/* Contact
+--------------------------------------------------------------*/
+footer {
+    background: #8B9556;
+    color: whitesmoke;
 }
